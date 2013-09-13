@@ -1,0 +1,512 @@
+2013-09-11 17:36:33 Error: [NotFoundException] Not Found
+Request URL: /getbox/
+Stack Trace:
+#0 /var/www/codigos/cakephp-2.4.0/Cake/View/View.php(929): include()
+#1 /var/www/codigos/cakephp-2.4.0/Cake/View/View.php(891): View->_evaluate('/var/www/getbox...', Array)
+#2 /var/www/codigos/cakephp-2.4.0/Cake/View/View.php(462): View->_render('/var/www/getbox...')
+#3 /var/www/codigos/cakephp-2.4.0/Cake/Controller/Controller.php(952): View->render('home', NULL)
+#4 /var/www/getbox/Controller/PagesController.php(70): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 /var/www/codigos/cakephp-2.4.0/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 /var/www/codigos/cakephp-2.4.0/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/codigos/cakephp-2.4.0/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/getbox/webroot/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-09-11 17:36:41 Error: [NotFoundException] Not Found
+Request URL: /getbox/
+Stack Trace:
+#0 /var/www/codigos/cakephp-2.4.0/Cake/View/View.php(929): include()
+#1 /var/www/codigos/cakephp-2.4.0/Cake/View/View.php(891): View->_evaluate('/var/www/getbox...', Array)
+#2 /var/www/codigos/cakephp-2.4.0/Cake/View/View.php(462): View->_render('/var/www/getbox...')
+#3 /var/www/codigos/cakephp-2.4.0/Cake/Controller/Controller.php(952): View->render('home', NULL)
+#4 /var/www/getbox/Controller/PagesController.php(70): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 /var/www/codigos/cakephp-2.4.0/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 /var/www/codigos/cakephp-2.4.0/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/codigos/cakephp-2.4.0/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/getbox/webroot/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-09-11 19:17:31 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /getbox/users
+Stack Trace:
+#0 /var/www/codigos/cakephp-2.4.0/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/codigos/cakephp-2.4.0/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/getbox/webroot/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-11 19:24:12 Error: Fatal Error (4): syntax error, unexpected T_STRING in [/var/www/getbox/View/Users/admin_index.ctp, line 49]
+2013-09-11 19:24:12 Error: [FatalErrorException] syntax error, unexpected T_STRING
+Request URL: /getbox/admin/users
+Stack Trace:
+#0 /var/www/codigos/cakephp-2.4.0/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/getbox...', 49)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/getbox...', 49, Array)
+#2 /var/www/codigos/cakephp-2.4.0/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/getbox...', 49, Array)
+#3 /var/www/codigos/cakephp-2.4.0/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-11 19:26:56 Error: [MissingControllerException] Controller class GroupsController could not be found.
+Exception Attributes: array (
+  'class' => 'GroupsController',
+  'plugin' => NULL,
+)
+Request URL: /getbox/admin/groups/add
+Stack Trace:
+#0 /var/www/getbox/webroot/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-11 19:37:48 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [/var/www/getbox/Controller/GroupsController.php, line 54]
+2013-09-11 19:37:48 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /getbox/admin/groups/add
+Stack Trace:
+#0 /var/www/codigos/cakephp-2.4.0/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/getbox...', 54)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/getbox...', 54, Array)
+#2 /var/www/codigos/cakephp-2.4.0/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/getbox...', 54, Array)
+#3 /var/www/codigos/cakephp-2.4.0/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-11 19:38:44 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [/var/www/getbox/Controller/UsersController.php, line 54]
+2013-09-11 19:38:44 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /getbox/admin/users/add
+Stack Trace:
+#0 /var/www/codigos/cakephp-2.4.0/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/getbox...', 54)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/getbox...', 54, Array)
+#2 /var/www/codigos/cakephp-2.4.0/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/getbox...', 54, Array)
+#3 /var/www/codigos/cakephp-2.4.0/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-11 20:33:57 Error: [MissingActionException] Action UsersController::admin_login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'admin_login',
+)
+Request URL: /getbox/admin/users/login
+Stack Trace:
+#0 /var/www/codigos/cakephp-2.4.0/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/codigos/cakephp-2.4.0/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/getbox/webroot/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-11 20:47:03 Error: [MissingActionException] Action UsersController::admin_login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'admin_login',
+)
+Request URL: /getbox/admin/users/login
+Stack Trace:
+#0 /var/www/codigos/cakephp-2.4.0/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/codigos/cakephp-2.4.0/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/getbox/webroot/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-11 23:22:27 Error: [MissingPluginException] Plugin AclCaching could not be found.
+Exception Attributes: array (
+  'plugin' => 'AclCaching',
+)
+Request URL: /getbox/admin/users
+Stack Trace:
+#0 /var/www/codigos/cakephp-2.4.0/Cake/Core/App.php(367): CakePlugin::path('AclCaching')
+#1 /var/www/codigos/cakephp-2.4.0/Cake/Core/App.php(228): App::pluginPath('AclCaching')
+#2 /var/www/codigos/cakephp-2.4.0/Cake/Core/App.php(549): App::path('Controller/Comp...', 'AclCaching')
+#3 [internal function]: App::load('AclCachingCompo...')
+#4 [internal function]: spl_autoload_call('AclCachingCompo...')
+#5 /var/www/codigos/cakephp-2.4.0/Cake/Controller/ComponentCollection.php(110): class_exists('AclCachingCompo...')
+#6 /var/www/codigos/cakephp-2.4.0/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('AclCaching.AclC...', Array)
+#7 /var/www/codigos/cakephp-2.4.0/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(UsersController))
+#8 /var/www/codigos/cakephp-2.4.0/Cake/Routing/Dispatcher.php(183): Controller->constructClasses()
+#9 /var/www/codigos/cakephp-2.4.0/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/getbox/webroot/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-09-11 23:23:59 Error: [MissingPluginException] Plugin AclCaching could not be found.
+Exception Attributes: array (
+  'plugin' => 'AclCaching',
+)
+Stack Trace:
+#0 /var/www/getbox/Config/bootstrap.php(76): CakePlugin::load('AclCaching')
+#1 /var/www/codigos/cakephp-2.4.0/Cake/Core/Configure.php(92): include('/var/www/getbox...')
+#2 /var/www/codigos/cakephp-2.4.0/Cake/bootstrap.php(177): Configure::bootstrap(true)
+#3 /var/www/getbox/webroot/index.php(109): include('/var/www/codigo...')
+#4 {main}
+2013-09-11 23:25:39 Error: [MissingComponentException] Component class AclCachingComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AclCachingComponent',
+  'plugin' => 'AclCaching',
+)
+Request URL: /getbox/admin/users
+Stack Trace:
+#0 /var/www/codigos/cakephp-2.4.0/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('AclCaching.AclC...', Array)
+#1 /var/www/codigos/cakephp-2.4.0/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 /var/www/codigos/cakephp-2.4.0/Cake/Routing/Dispatcher.php(183): Controller->constructClasses()
+#3 /var/www/codigos/cakephp-2.4.0/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/getbox/webroot/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-11 23:58:02 Error: [MissingPluginException] Plugin AclCaching could not be found.
+Exception Attributes: array (
+  'plugin' => 'AclCaching',
+)
+Request URL: /getbox/admin/users
+Stack Trace:
+#0 /var/www/codigos/cakephp-2.4.0/Cake/Core/App.php(367): CakePlugin::path('AclCaching')
+#1 /var/www/codigos/cakephp-2.4.0/Cake/Core/App.php(228): App::pluginPath('AclCaching')
+#2 /var/www/codigos/cakephp-2.4.0/Cake/Core/App.php(549): App::path('View/Helper', 'AclCaching')
+#3 [internal function]: App::load('AclHtmlHelper')
+#4 [internal function]: spl_autoload_call('AclHtmlHelper')
+#5 /var/www/codigos/cakephp-2.4.0/Cake/View/HelperCollection.php(130): class_exists('AclHtmlHelper')
+#6 /var/www/codigos/cakephp-2.4.0/Cake/View/View.php(867): HelperCollection->load('AclCaching.AclH...', Array)
+#7 /var/www/codigos/cakephp-2.4.0/Cake/View/View.php(343): View->loadHelpers()
+#8 /var/www/codigos/cakephp-2.4.0/Cake/Controller/Controller.php(1240): View->__construct(Object(UsersController))
+#9 /var/www/codigos/cakephp-2.4.0/Cake/Controller/Controller.php(938): Controller->_getViewObject()
+#10 /var/www/codigos/cakephp-2.4.0/Cake/Routing/Dispatcher.php(194): Controller->render()
+#11 /var/www/codigos/cakephp-2.4.0/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#12 /var/www/getbox/webroot/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-09-11 23:58:39 Error: [MissingHelperException] Helper class AclHtmlHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AclHtmlHelper',
+  'plugin' => 'AclCaching',
+)
+Request URL: /getbox/admin/users
+Stack Trace:
+#0 /var/www/codigos/cakephp-2.4.0/Cake/View/View.php(867): HelperCollection->load('AclCaching.AclH...', Array)
+#1 /var/www/codigos/cakephp-2.4.0/Cake/View/View.php(343): View->loadHelpers()
+#2 /var/www/codigos/cakephp-2.4.0/Cake/Controller/Controller.php(1240): View->__construct(Object(UsersController))
+#3 /var/www/codigos/cakephp-2.4.0/Cake/Controller/Controller.php(938): Controller->_getViewObject()
+#4 /var/www/codigos/cakephp-2.4.0/Cake/Routing/Dispatcher.php(194): Controller->render()
+#5 /var/www/codigos/cakephp-2.4.0/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/getbox/webroot/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-09-11 23:59:03 Error: [MissingHelperException] Helper class AclHtmlHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AclHtmlHelper',
+  'plugin' => 'AclCaching',
+)
+Request URL: /getbox/admin/users
+Stack Trace:
+#0 /var/www/codigos/cakephp-2.4.0/Cake/View/View.php(867): HelperCollection->load('AclCaching.AclH...', Array)
+#1 /var/www/codigos/cakephp-2.4.0/Cake/View/View.php(343): View->loadHelpers()
+#2 /var/www/codigos/cakephp-2.4.0/Cake/Controller/Controller.php(1240): View->__construct(Object(UsersController))
+#3 /var/www/codigos/cakephp-2.4.0/Cake/Controller/Controller.php(938): Controller->_getViewObject()
+#4 /var/www/codigos/cakephp-2.4.0/Cake/Routing/Dispatcher.php(194): Controller->render()
+#5 /var/www/codigos/cakephp-2.4.0/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/getbox/webroot/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-09-11 23:59:15 Error: [MissingHelperException] Helper class AclHtmlHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AclHtmlHelper',
+  'plugin' => 'AclCaching',
+)
+Request URL: /getbox/admin/users
+Stack Trace:
+#0 /var/www/codigos/cakephp-2.4.0/Cake/View/View.php(867): HelperCollection->load('AclCaching.AclH...', Array)
+#1 /var/www/codigos/cakephp-2.4.0/Cake/View/View.php(343): View->loadHelpers()
+#2 /var/www/codigos/cakephp-2.4.0/Cake/Controller/Controller.php(1240): View->__construct(Object(UsersController))
+#3 /var/www/codigos/cakephp-2.4.0/Cake/Controller/Controller.php(938): Controller->_getViewObject()
+#4 /var/www/codigos/cakephp-2.4.0/Cake/Routing/Dispatcher.php(194): Controller->render()
+#5 /var/www/codigos/cakephp-2.4.0/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/getbox/webroot/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-09-12 00:10:40 Error: [MissingHelperException] Helper class AclHtmlHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AclHtmlHelper',
+  'plugin' => 'AclCaching',
+)
+Request URL: /getbox/admin/users
+Stack Trace:
+#0 /var/www/codigos/cakephp-2.4.0/Cake/View/View.php(867): HelperCollection->load('AclCaching.AclH...', Array)
+#1 /var/www/codigos/cakephp-2.4.0/Cake/View/View.php(343): View->loadHelpers()
+#2 /var/www/codigos/cakephp-2.4.0/Cake/Controller/Controller.php(1240): View->__construct(Object(UsersController))
+#3 /var/www/codigos/cakephp-2.4.0/Cake/Controller/Controller.php(938): Controller->_getViewObject()
+#4 /var/www/codigos/cakephp-2.4.0/Cake/Routing/Dispatcher.php(194): Controller->render()
+#5 /var/www/codigos/cakephp-2.4.0/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/getbox/webroot/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-09-12 00:11:01 Error: [MissingHelperException] Helper class AclHtmlHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AclHtmlHelper',
+  'plugin' => 'AclCaching',
+)
+Request URL: /getbox/admin/users
+Stack Trace:
+#0 /var/www/codigos/cakephp-2.4.0/Cake/View/View.php(867): HelperCollection->load('AclCaching.AclH...', Array)
+#1 /var/www/codigos/cakephp-2.4.0/Cake/View/View.php(343): View->loadHelpers()
+#2 /var/www/codigos/cakephp-2.4.0/Cake/Controller/Controller.php(1240): View->__construct(Object(UsersController))
+#3 /var/www/codigos/cakephp-2.4.0/Cake/Controller/Controller.php(938): Controller->_getViewObject()
+#4 /var/www/codigos/cakephp-2.4.0/Cake/Routing/Dispatcher.php(194): Controller->render()
+#5 /var/www/codigos/cakephp-2.4.0/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/getbox/webroot/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-09-12 00:16:49 Error: [MissingHelperException] Helper class AclHtmlHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AclHtmlHelper',
+  'plugin' => 'AclCaching',
+)
+Request URL: /getbox/admin/users
+Stack Trace:
+#0 /var/www/codigos/cakephp-2.4.0/Cake/View/View.php(867): HelperCollection->load('AclCaching.AclH...', Array)
+#1 /var/www/codigos/cakephp-2.4.0/Cake/View/View.php(343): View->loadHelpers()
+#2 /var/www/codigos/cakephp-2.4.0/Cake/Controller/Controller.php(1240): View->__construct(Object(UsersController))
+#3 /var/www/codigos/cakephp-2.4.0/Cake/Controller/Controller.php(938): Controller->_getViewObject()
+#4 /var/www/codigos/cakephp-2.4.0/Cake/Routing/Dispatcher.php(194): Controller->render()
+#5 /var/www/codigos/cakephp-2.4.0/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/getbox/webroot/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-09-12 00:18:41 Error: [MissingComponentException] Component class AclCachingComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AclCachingComponent',
+  'plugin' => 'AclCaching',
+)
+Request URL: /getbox/admin/users
+Stack Trace:
+#0 /var/www/codigos/cakephp-2.4.0/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('AclCaching.AclC...', Array)
+#1 /var/www/codigos/cakephp-2.4.0/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 /var/www/codigos/cakephp-2.4.0/Cake/Routing/Dispatcher.php(183): Controller->constructClasses()
+#3 /var/www/codigos/cakephp-2.4.0/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/getbox/webroot/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-12 00:20:17 Error: Fatal Error (1): Cannot assign by reference to overloaded object in [/var/www/getbox/Plugin/AclCaching/Controller/Component/AclCachingComponent.php, line 90]
+2013-09-12 00:20:17 Error: [FatalErrorException] Cannot assign by reference to overloaded object
+Request URL: /getbox/admin/users
+Stack Trace:
+#0 /var/www/codigos/cakephp-2.4.0/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Cannot assign b...', '/var/www/getbox...', 90)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot assign b...', '/var/www/getbox...', 90, Array)
+#2 /var/www/codigos/cakephp-2.4.0/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot assign b...', '/var/www/getbox...', 90, Array)
+#3 /var/www/codigos/cakephp-2.4.0/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-12 00:21:51 Error: Fatal Error (1): Cannot assign by reference to overloaded object in [/var/www/getbox/Plugin/AclCaching/Controller/Component/AclCachingComponent.php, line 90]
+2013-09-12 00:21:51 Error: [FatalErrorException] Cannot assign by reference to overloaded object
+Request URL: /getbox/admin/users
+Stack Trace:
+#0 /var/www/codigos/cakephp-2.4.0/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Cannot assign b...', '/var/www/getbox...', 90)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot assign b...', '/var/www/getbox...', 90, Array)
+#2 /var/www/codigos/cakephp-2.4.0/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot assign b...', '/var/www/getbox...', 90, Array)
+#3 /var/www/codigos/cakephp-2.4.0/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-12 00:22:43 Error: [MissingPluginException] Plugin AclCaching could not be found.
+Exception Attributes: array (
+  'plugin' => 'AclCaching',
+)
+Stack Trace:
+#0 /var/www/getbox/Config/bootstrap.php(76): CakePlugin::load('AclCaching')
+#1 /var/www/codigos/cakephp-2.4.0/Cake/Core/Configure.php(92): include('/var/www/getbox...')
+#2 /var/www/codigos/cakephp-2.4.0/Cake/bootstrap.php(177): Configure::bootstrap(true)
+#3 /var/www/codigos/cakephp-2.4.0/Cake/Console/ShellDispatcher.php(138): require('/var/www/codigo...')
+#4 /var/www/codigos/cakephp-2.4.0/Cake/Console/ShellDispatcher.php(100): ShellDispatcher->_bootstrap()
+#5 /var/www/codigos/cakephp-2.4.0/Cake/Console/ShellDispatcher.php(56): ShellDispatcher->_initEnvironment()
+#6 /var/www/codigos/cakephp-2.4.0/Cake/Console/ShellDispatcher.php(67): ShellDispatcher->__construct(Array)
+#7 /var/www/codigos/cakephp-2.4.0/Cake/Console/cake.php(51): ShellDispatcher::run(Array)
+#8 {main}
+2013-09-12 00:24:44 Error: [MissingPluginException] Plugin AclCaching could not be found.
+Exception Attributes: array (
+  'plugin' => 'AclCaching',
+)
+Stack Trace:
+#0 /var/www/getbox/Config/bootstrap.php(76): CakePlugin::load('AclCaching')
+#1 /var/www/codigos/cakephp-2.4.0/Cake/Core/Configure.php(92): include('/var/www/getbox...')
+#2 /var/www/codigos/cakephp-2.4.0/Cake/bootstrap.php(177): Configure::bootstrap(true)
+#3 /var/www/codigos/cakephp-2.4.0/Cake/Console/ShellDispatcher.php(138): require('/var/www/codigo...')
+#4 /var/www/codigos/cakephp-2.4.0/Cake/Console/ShellDispatcher.php(100): ShellDispatcher->_bootstrap()
+#5 /var/www/codigos/cakephp-2.4.0/Cake/Console/ShellDispatcher.php(56): ShellDispatcher->_initEnvironment()
+#6 /var/www/codigos/cakephp-2.4.0/Cake/Console/ShellDispatcher.php(67): ShellDispatcher->__construct(Array)
+#7 /var/www/codigos/cakephp-2.4.0/Cake/Console/cake.php(51): ShellDispatcher::run(Array)
+#8 {main}
+2013-09-12 00:30:19 Error: [CakeException] AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 2
+)
+"
+Request URL: /getbox/groups/initdb
+Stack Trace:
+#0 /var/www/codigos/cakephp-2.4.0/Cake/Model/Permission.php(223): AclNode->node(Object(Group))
+#1 /var/www/codigos/cakephp-2.4.0/Cake/Model/Permission.php(175): Permission->getAclLink(Object(Group), 'controllers')
+#2 /var/www/codigos/cakephp-2.4.0/Cake/Controller/Component/Acl/DbAcl.php(88): Permission->allow(Object(Group), 'controllers', '*', -1)
+#3 /var/www/codigos/cakephp-2.4.0/Cake/Controller/Component/Acl/DbAcl.php(101): DbAcl->allow(Object(Group), 'controllers', '*', -1)
+#4 /var/www/codigos/cakephp-2.4.0/Cake/Controller/Component/AclComponent.php(136): DbAcl->deny(Object(Group), 'controllers', '*')
+#5 /var/www/getbox/Controller/GroupsController.php(115): AclComponent->deny(Object(Group), 'controllers')
+#6 [internal function]: GroupsController->initDB()
+#7 /var/www/codigos/cakephp-2.4.0/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(GroupsController), Array)
+#8 /var/www/codigos/cakephp-2.4.0/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/codigos/cakephp-2.4.0/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(GroupsController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/getbox/webroot/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-09-12 00:56:32 Warning: SplFileInfo::openFile(/var/www/getbox/tmp/cache/models/myapp_cake_model_default_getbox_aros_acos): failed to open stream: Permission denied in [/var/www/codigos/cakephp-2.4.0/Cake/Cache/Engine/FileEngine.php, line 351]
+2013-09-12 00:56:32 Warning: SplFileInfo::openFile(/var/www/getbox/tmp/cache/models/myapp_cake_model_default_getbox_aros_acos): failed to open stream: Permission denied in [/var/www/codigos/cakephp-2.4.0/Cake/Cache/Engine/FileEngine.php, line 351]
+2013-09-12 00:56:32 Warning: _cake_model_ cache was unable to write 'default_getbox_aros_acos' to File cache in [/var/www/codigos/cakephp-2.4.0/Cake/Cache/Cache.php, line 325]
+2013-09-12 00:56:32 Warning: SplFileInfo::openFile(/var/www/getbox/tmp/cache/models/myapp_cake_model_default_getbox_aros_acos): failed to open stream: Permission denied in [/var/www/codigos/cakephp-2.4.0/Cake/Cache/Engine/FileEngine.php, line 351]
+2013-09-12 00:56:32 Warning: SplFileInfo::openFile(/var/www/getbox/tmp/cache/models/myapp_cake_model_default_getbox_aros_acos): failed to open stream: Permission denied in [/var/www/codigos/cakephp-2.4.0/Cake/Cache/Engine/FileEngine.php, line 351]
+2013-09-12 00:56:32 Warning: _cake_model_ cache was unable to write 'default_getbox_aros_acos' to File cache in [/var/www/codigos/cakephp-2.4.0/Cake/Cache/Cache.php, line 325]
+2013-09-12 01:02:37 Error: [CakeException] AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 1
+)
+"
+Request URL: /getbox/groups/initdb
+Stack Trace:
+#0 /var/www/codigos/cakephp-2.4.0/Cake/Model/Permission.php(223): AclNode->node(Object(Group))
+#1 /var/www/codigos/cakephp-2.4.0/Cake/Model/Permission.php(175): Permission->getAclLink(Object(Group), 'controllers')
+#2 /var/www/codigos/cakephp-2.4.0/Cake/Controller/Component/Acl/DbAcl.php(88): Permission->allow(Object(Group), 'controllers', '*', 1)
+#3 /var/www/codigos/cakephp-2.4.0/Cake/Controller/Component/AclComponent.php(123): DbAcl->allow(Object(Group), 'controllers', '*')
+#4 /var/www/getbox/Controller/GroupsController.php(112): AclComponent->allow(Object(Group), 'controllers')
+#5 [internal function]: GroupsController->initDB()
+#6 /var/www/codigos/cakephp-2.4.0/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(GroupsController), Array)
+#7 /var/www/codigos/cakephp-2.4.0/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/codigos/cakephp-2.4.0/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(GroupsController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/getbox/webroot/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-09-12 01:13:17 Error: [MissingActionException] Action GroupsController::initdb() could not be found.
+Exception Attributes: array (
+  'controller' => 'GroupsController',
+  'action' => 'initdb',
+)
+Request URL: /getbox/groups/initdb
+Stack Trace:
+#0 /var/www/codigos/cakephp-2.4.0/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/codigos/cakephp-2.4.0/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(GroupsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/getbox/webroot/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-12 01:21:31 Error: Fatal Error (1): Cannot assign by reference to overloaded object in [/var/www/getbox/Controller/AppController.php, line 92]
+2013-09-12 01:21:31 Error: [FatalErrorException] Cannot assign by reference to overloaded object
+Request URL: /getbox/users/login
+Stack Trace:
+#0 /var/www/codigos/cakephp-2.4.0/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Cannot assign b...', '/var/www/getbox...', 92)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot assign b...', '/var/www/getbox...', 92, Array)
+#2 /var/www/codigos/cakephp-2.4.0/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot assign b...', '/var/www/getbox...', 92, Array)
+#3 /var/www/codigos/cakephp-2.4.0/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-12 01:22:07 Error: [CakeException] Authentication adapter "validate" was not found.
+Request URL: /getbox/users/login
+Stack Trace:
+#0 /var/www/codigos/cakephp-2.4.0/Cake/Controller/Component/AuthComponent.php(751): AuthComponent->constructAuthenticate()
+#1 /var/www/codigos/cakephp-2.4.0/Cake/Controller/Component/AuthComponent.php(601): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/getbox/Controller/UsersController.php(26): AuthComponent->login()
+#3 [internal function]: UsersController->login()
+#4 /var/www/codigos/cakephp-2.4.0/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /var/www/codigos/cakephp-2.4.0/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/codigos/cakephp-2.4.0/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/getbox/webroot/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-09-12 02:26:09 Error: [MissingControllerException] Controller class HomeController could not be found.
+Exception Attributes: array (
+  'class' => 'HomeController',
+  'plugin' => NULL,
+)
+Request URL: /getbox/home
+Stack Trace:
+#0 /var/www/getbox/webroot/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-12 02:29:51 Error: [MissingControllerException] Controller class HomeController could not be found.
+Exception Attributes: array (
+  'class' => 'HomeController',
+  'plugin' => NULL,
+)
+Request URL: /getbox/home
+Stack Trace:
+#0 /var/www/getbox/webroot/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-12 02:30:40 Error: [MissingControllerException] Controller class HomeController could not be found.
+Exception Attributes: array (
+  'class' => 'HomeController',
+  'plugin' => NULL,
+)
+Request URL: /getbox/home
+Stack Trace:
+#0 /var/www/getbox/webroot/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-12 02:32:48 Error: Fatal Error (1): Cannot assign by reference to overloaded object in [/var/www/getbox/Controller/AppController.php, line 89]
+2013-09-12 02:32:48 Error: [FatalErrorException] Cannot assign by reference to overloaded object
+Request URL: /getbox/users/login
+Stack Trace:
+#0 /var/www/codigos/cakephp-2.4.0/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Cannot assign b...', '/var/www/getbox...', 89)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot assign b...', '/var/www/getbox...', 89, Array)
+#2 /var/www/codigos/cakephp-2.4.0/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot assign b...', '/var/www/getbox...', 89, Array)
+#3 /var/www/codigos/cakephp-2.4.0/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-12 02:37:08 Error: Fatal Error (1): Cannot assign by reference to overloaded object in [/var/www/getbox/Controller/AppController.php, line 89]
+2013-09-12 02:37:08 Error: [FatalErrorException] Cannot assign by reference to overloaded object
+Request URL: /getbox/users/login
+Stack Trace:
+#0 /var/www/codigos/cakephp-2.4.0/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Cannot assign b...', '/var/www/getbox...', 89)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot assign b...', '/var/www/getbox...', 89, Array)
+#2 /var/www/codigos/cakephp-2.4.0/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot assign b...', '/var/www/getbox...', 89, Array)
+#3 /var/www/codigos/cakephp-2.4.0/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-12 02:37:11 Error: Fatal Error (1): Cannot assign by reference to overloaded object in [/var/www/getbox/Controller/AppController.php, line 89]
+2013-09-12 02:37:11 Error: [FatalErrorException] Cannot assign by reference to overloaded object
+Request URL: /getbox/users/login
+Stack Trace:
+#0 /var/www/codigos/cakephp-2.4.0/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Cannot assign b...', '/var/www/getbox...', 89)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot assign b...', '/var/www/getbox...', 89, Array)
+#2 /var/www/codigos/cakephp-2.4.0/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot assign b...', '/var/www/getbox...', 89, Array)
+#3 /var/www/codigos/cakephp-2.4.0/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-12 02:37:38 Error: [MissingControllerException] Controller class HomeController could not be found.
+Exception Attributes: array (
+  'class' => 'HomeController',
+  'plugin' => NULL,
+)
+Request URL: /getbox/home
+Stack Trace:
+#0 /var/www/getbox/webroot/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-12 02:37:59 Error: [MissingControllerException] Controller class HomeController could not be found.
+Exception Attributes: array (
+  'class' => 'HomeController',
+  'plugin' => NULL,
+)
+Request URL: /getbox/home
+Stack Trace:
+#0 /var/www/getbox/webroot/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-12 02:38:00 Error: [MissingControllerException] Controller class HomeController could not be found.
+Exception Attributes: array (
+  'class' => 'HomeController',
+  'plugin' => NULL,
+)
+Request URL: /getbox/home
+Stack Trace:
+#0 /var/www/getbox/webroot/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-12 02:38:19 Error: [MissingControllerException] Controller class HomeController could not be found.
+Exception Attributes: array (
+  'class' => 'HomeController',
+  'plugin' => NULL,
+)
+Request URL: /getbox/home
+Stack Trace:
+#0 /var/www/getbox/webroot/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-12 02:40:24 Error: Fatal Error (1): Call to a member function logout() on a non-object in [/var/www/getbox/Controller/AppController.php, line 93]
+2013-09-12 02:40:24 Error: [FatalErrorException] Call to a member function logout() on a non-object
+Request URL: /getbox/users/login
+Stack Trace:
+#0 /var/www/codigos/cakephp-2.4.0/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/getbox...', 93)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/getbox...', 93, Array)
+#2 /var/www/codigos/cakephp-2.4.0/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/getbox...', 93, Array)
+#3 /var/www/codigos/cakephp-2.4.0/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-12 02:46:56 Error: Fatal Error (1): Cannot assign by reference to overloaded object in [/var/www/getbox/Controller/AppController.php, line 91]
+2013-09-12 02:46:56 Error: [FatalErrorException] Cannot assign by reference to overloaded object
+Request URL: /getbox/users/login
+Stack Trace:
+#0 /var/www/codigos/cakephp-2.4.0/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Cannot assign b...', '/var/www/getbox...', 91)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot assign b...', '/var/www/getbox...', 91, Array)
+#2 /var/www/codigos/cakephp-2.4.0/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot assign b...', '/var/www/getbox...', 91, Array)
+#3 /var/www/codigos/cakephp-2.4.0/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-12 03:21:39 Error: [MissingControllerException] Controller class HomeController could not be found.
+Exception Attributes: array (
+  'class' => 'HomeController',
+  'plugin' => NULL,
+)
+Request URL: /getbox/home
+Stack Trace:
+#0 /var/www/getbox/webroot/index.php(123): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
