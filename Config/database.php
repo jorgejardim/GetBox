@@ -64,10 +64,10 @@ class DATABASE_CONFIG {
     var $bash = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
-		'host' => 'localhost',
-		'login' => 'root',
+		'host' => '176.111.109.12',
+		'login' => 'db_usr',
 		'password' => 't4r5zjj',
-		'database' => 'getbox',
+		'database' => 'website',
 		'prefix' => '',
 		//'encoding' => 'utf8',	
     );
@@ -98,9 +98,9 @@ class DATABASE_CONFIG {
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'localhost',
-		'login' => 'root',
+		'login' => 'db_usr',
 		'password' => 't4r5zjj',
-		'database' => 'getbox',
+		'database' => 'website',
 		'prefix' => '',
 		//'encoding' => 'utf8',	
     );
