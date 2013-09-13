@@ -74,7 +74,7 @@ if(isset($_SERVER['HTTP_HOST'])) {
 
 		//Servidor Lunacloud - SistemaFrames
 	} else {
-		define('CAKE_CORE_INCLUDE_PATH', DS . 'var' . DS . 'www' . DS . 'html' . DS . 'cakephp-2.4.0');
+		define('CAKE_CORE_INCLUDE_PATH', DS . 'var' . DS . 'www' . DS . 'cakephp-2.4.0');
 	}
 }
 
