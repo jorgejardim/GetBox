@@ -1,15 +1,28 @@
 # Ignore database configs
+config/database.php
 /*/config/database.php
 
 # Ignore uploads img files
+webroot/upload/*
+!webroot/upload/
+!webroot/upload/empty
 /*/webroot/upload/*
 !*/webroot/upload/
 !*/webroot/upload/empty
 
+webroot/avatars/*
+!webroot/avatars/
+!webroot/avatars/empty
 /*/webroot/avatars/*
 !*/webroot/avatars/
 !*/webroot/avatars/empty
 
+webroot/logos/*
+!webroot/logos/
+!webroot/logos/empty
+!webroot/logos/brasao_sp_original.jpg
+!webroot/logos/default.jpg
+!webroot/logos/default-pb.jpg
 /*/webroot/logos/*
 !*/webroot/logos/
 !*/webroot/logos/empty
@@ -17,46 +30,78 @@
 !*/webroot/logos/default.jpg
 !*/webroot/logos/default-pb.jpg
 
+webroot/upload/audio_curso/*
+!webroot/upload/audio_curso/
+!webroot/upload/audio_curso/empty
 /*/webroot/upload/audio_curso/*
 !*/webroot/upload/audio_curso/
 !*/webroot/upload/audio_curso/empty
 
+webroot/upload/downloads/*
+!webroot/upload/downloads/
+!webroot/upload/downloads/empty
 /*/webroot/upload/downloads/*
 !*/webroot/upload/downloads/
 !*/webroot/upload/downloads/empty
 
+webroot/upload/programs/*
+!webroot/upload/programs/
+!webroot/upload/programs/empty
 /*/webroot/upload/programs/*
 !*/webroot/upload/programs/
 !*/webroot/upload/programs/empty
 
 # Cake TMP Dirs
+tmp/*
+!tmp/
 /*/tmp/*
 !/*/tmp/
 
+tmp/cache/*
+!tmp/cache/
+!tmp/cache/empty
 /*/tmp/cache/*
 !/*/tmp/cache/
 !/*/tmp/cache/empty
 
+tmp/cache/models/*
+!tmp/cache/models/
+!tmp/cache/models/empty
 /*/tmp/cache/models/*
 !/*/tmp/cache/models/
 !/*/tmp/cache/models/empty
 
+tmp/cache/persistent/*
+!tmp/cache/persistent/
+!tmp/cache/persistent/empty
 /*/tmp/cache/persistent/*
 !/*/tmp/cache/persistent/
 !/*/tmp/cache/persistent/empty
 
+tmp/cache/views/*
+!tmp/cache/views/
+!tmp/cache/views/empty
 /*/tmp/cache/views/*
 !/*/tmp/cache/views/
 !/*/tmp/cache/views/empty
 
+tmp/logs/*
+!tmp/logs/
+!tmp/logs/empty
 /*/tmp/logs/*
 !/*/tmp/logs/
 !/*/tmp/logs/empty
 
+tmp/sessions/*
+!tmp/sessions/
+!tmp/sessions/empty
 /*/tmp/sessions/*
 !/*/tmp/sessions/
 !/*/tmp/sessions/empty
 
+tmp/tests/*
+!tmp/tests/
+!tmp/tests/empty
 /*/tmp/tests/*
 !/*/tmp/tests/
 !/*/tmp/tests/empty
@@ -69,3 +114,9 @@ nbproject
 .DS_Store
 Thumbs.db
 bkps
+.cache
+.idea
+*~
+
+## Allow 'empty' files
+!empty
