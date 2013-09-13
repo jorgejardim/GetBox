@@ -100,10 +100,21 @@ class DATABASE_CONFIG {
 		'host' => 'localhost',
 		'login' => 'db_usr',
 		'password' => 't4r5zjj',
-		'database' => 'website',
+		'database' => 'getbox',
 		'prefix' => '',
 		//'encoding' => 'utf8',	
     );
+    
+    var $production_mkt = array(
+    		'datasource' => 'Database/Mysql',
+    		'persistent' => false,
+    		'host' => 'localhost',
+    		'login' => 'db_usr',
+    		'password' => 't4r5zjj',
+    		'database' => 'getbox_mkt',
+    		'prefix' => '',
+    		//'encoding' => 'utf8',
+    );    
     
     var $default;
 
