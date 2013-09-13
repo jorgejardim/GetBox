@@ -38,7 +38,7 @@
 		$_SERVER['REMOTE_ADDR']=='189.33.207.40') {
 			Configure::write('debug', 2);
 		} else {
-			Configure::write('debug', 0);
+			Configure::write('debug', 2);
 		}
 	} else {
 		Configure::write('debug', 0);
